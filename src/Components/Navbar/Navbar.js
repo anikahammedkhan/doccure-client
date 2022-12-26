@@ -24,7 +24,7 @@ const Navbar = () => {
         </ul>
     </li>
     return (
-        <div className="navbar lg:px-20 shadow-lg">
+        <div className="navbar bg-white lg:px-20 shadow-lg sticky top-0 z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
