@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import Category from '../Category/Category';
 import DoctorSlider from '../DoctorSlider/DoctorSlider';
 import Features from '../Features/Features';
+import NewsLetter from '../NewsLetter/NewsLetter';
 import Services from '../Services/Services';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Category></Category>
             <DoctorSlider></DoctorSlider>
             <Features></Features>
+            <NewsLetter></NewsLetter>
         </div>
     );
 };
