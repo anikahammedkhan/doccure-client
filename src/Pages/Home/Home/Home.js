@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import Category from '../Category/Category';
 import DoctorSlider from '../DoctorSlider/DoctorSlider';
+import Features from '../Features/Features';
 import Services from '../Services/Services';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Services></Services>
             <Category></Category>
             <DoctorSlider></DoctorSlider>
+            <Features></Features>
         </div>
     );
 };
