@@ -1,4 +1,5 @@
 import React from 'react';
+import Appointment from '../Appointment/Appointment';
 import Banner from '../Banner/Banner';
 
 const DoctorProfile = () => {
@@ -13,6 +14,7 @@ const DoctorProfile = () => {
                 <h1 className='text-white font-bold text-2xl'>Doctor Profile</h1>
             </div>
             <Banner></Banner>
+            <Appointment></Appointment>
         </div>
     );
 };
