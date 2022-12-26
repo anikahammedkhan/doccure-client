@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from "lottie-react";
-import doctorsBanner from "../../../../Assets/doctors-banner-1.json";
+import doctorsBanner from "../../../Assets/doctors-banner-1.json";
 
 const Banner = () => {
     return (

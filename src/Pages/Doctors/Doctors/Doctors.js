@@ -1,10 +1,15 @@
 import React from 'react';
-import Banner from './Banner/Banner';
+import AvailableDoctors from '../AvailableDoctors/AvailableDoctors';
+import Banner from '../Banner/Banner';
+import CategoryCard from '../CategoryCard/CategoryCard';
+
 
 const Doctors = () => {
     return (
         <div>
             <Banner></Banner>
+            <CategoryCard></CategoryCard>
+            <AvailableDoctors></AvailableDoctors>
         </div>
     );
 };
